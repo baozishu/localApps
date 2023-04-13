@@ -15,18 +15,32 @@
 	  "document": "hhttps://doc.voce.chat/" 
 	},
   {
+    "key": "onenav",
+    "name": "OneNav",
+    "tags": ["Tool"],
+    "versions": ["latest"],
+    "shortDescZh": "一款开源免费的书签（导航）管理程序",
+    "shortDescEn": "An open source free bookmark (navigation) management program",
+    "type": "website",
+    "limit": 1,
+    "crossVersionUpdate": true,
+    "website": "https://www.onenav.top/",
+    "github": "https://github.com/helloxz/onenav",
+    "document": "https://doc.xiaoz.org/books/onenav/"
+  },
+  {
       "key": "memos",
       "name": "Memos",
       "tags": ["Tool"],
       "versions": ["latest"],
-      "shortDescZh": "一个轻量级的自托管备忘录",
-      "shortDescEn": "A lightweight, self-hosted memo hub.",
+      "shortDescZh": "高性能的 key-value 数据库",
+      "shortDescEn": "High-performance key-value database",
       "type": "website",
       "limit": 1,
       "crossVersionUpdate": true,
-      "website": "https://usememos.com/",
-      "github": "https://github.com/usememos/memos",
-      "document": "https://usememos.com/docs/"
+      "website": "https://redis.io/",
+      "github": "https://github.com/redis/redis",
+      "document": "https://redis.io/docs/"
     }
   ]
 }
