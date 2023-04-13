@@ -9,6 +9,6 @@
 - 当`/opt/1panel/resource/localApps`文件夹下没有任何内容，则可以
 
 ```shell
-git clone -b  localApps https://github.com/okxlin/appstore /opt/1panel/resource/localApps
+git clone -b  localApps https://github.com/baozishu/localApps.git
 ```
 然后应用商店刷新本地应用即可。
