@@ -19,14 +19,14 @@
       "name": "Memos",
       "tags": ["Tool"],
       "versions": ["latest"],
-      "shortDescZh": "高性能的 key-value 数据库",
-      "shortDescEn": "High-performance key-value database",
+      "shortDescZh": "一个轻量级的自托管备忘录",
+      "shortDescEn": "A lightweight, self-hosted memo hub.",
       "type": "website",
       "limit": 1,
       "crossVersionUpdate": true,
-      "website": "https://redis.io/",
-      "github": "https://github.com/redis/redis",
-      "document": "https://redis.io/docs/"
+      "website": "https://usememos.com/",
+      "github": "https://github.com/usememos/memos",
+      "document": "https://usememos.com/docs/"
     }
   ]
 }
