@@ -1,0 +1,32 @@
+{
+	"items": [
+	{
+	  "key": "vocechat",  
+	  "name": "VoceChat", 
+	  "tags": ["Tool"], 
+	  "versions": ["0.3.0"], 
+	  "shortDescZh": "独立部署的安全聊天软件", 
+	  "shortDescEn": "chat software that supports independent deployment", 
+	  "type": "website", 
+	  "limit": 0, 
+	  "crossVersionUpdate": false, 
+	  "website": "https://voce.chat/",  
+	  "github": "https://github.com/Privoce/vocechat-web", 
+	  "document": "hhttps://doc.voce.chat/" 
+	},
+  {
+      "key": "memos",
+      "name": "Memos",
+      "tags": ["Tool"],
+      "versions": ["latest"],
+      "shortDescZh": "高性能的 key-value 数据库",
+      "shortDescEn": "High-performance key-value database",
+      "type": "website",
+      "limit": 1,
+      "crossVersionUpdate": true,
+      "website": "https://redis.io/",
+      "github": "https://github.com/redis/redis",
+      "document": "https://redis.io/docs/"
+    }
+  ]
+}
