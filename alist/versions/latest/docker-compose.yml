@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+  alist:
+    image: 'xhofe/alist:latest'
+    container_name: ${CONTAINER_NAME}
+    restart: always
+    networks:
+      - 1panel-network
+    volumes:
+      - ./data:/opt/alist/data
+    ports:
+      - ${PANEL_APP_PORT_HTTP}:5244
+    labels:
+      createdBy: "Apps"
+
+networks:
+  1panel-network:
+    external: true

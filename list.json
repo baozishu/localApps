@@ -42,6 +42,20 @@
     "github": "https://github.com/jellyfin/jellyfin",
     "document": "https://jellyfin.org/docs/"
   },
+  {  
+  "key": "alist",
+  "name": "AList",
+  "tags": ["Tool"],
+  "versions": ["latest"],
+  "shortDescZh": "一个支持多种存储的文件列表程序",
+  "shortDescEn": "A file list program that supports multiple storage",
+  "type": "tool",
+  "limit": 0,
+  "crossVersionUpdate": false,
+  "website": "https://al.nn.ci/",
+  "github": "https://github.com/alist-org/alist",
+  "document": "https://alist.nn.ci/"
+ },
   {
     "key": "qBittorrent",
     "name": "qBittorrent",
